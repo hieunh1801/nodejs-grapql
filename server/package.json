@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-grapql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hieunh1801/nodejs-grapql",
+  "author": "Nguyen Huu Hieu <hieunh21@fpt.com.vn>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "knex": "^0.21.5",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
